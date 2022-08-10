@@ -1,5 +1,6 @@
 package net.bananastudio.themorethebetter;
 
+import net.bananastudio.themorethebetter.block.ModBlocks;
 import net.bananastudio.themorethebetter.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -12,5 +13,6 @@ public class TheMoreTheBetter implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
