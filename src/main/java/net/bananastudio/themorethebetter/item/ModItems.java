@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
     public static final Item RED_DIAMOND = registerItem("red_diamond",
-            new Item(new FabricItemSettings().group(ModItemGroup.MOREOREGROUP)));
+            new Item(new FabricItemSettings().group(ModItemGroup.MOREITEMGROUP)));
 
 
     private static Item registerItem(String name, Item item){

@@ -14,7 +14,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block RED_DIAMOND_ORE = registerBlock("red_diamond_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(30f)), ModItemGroup.MOREOREGROUP);
+    public static final Block RED_DIAMOND_ORE = registerBlock("red_diamond_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(30f)), ModItemGroup.MOREOREGROUP);
+    public static final Block RED_DIAMOND_BLOCK = registerBlock("red_diamond_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(40f)), ModItemGroup.MOREOREGROUP);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
