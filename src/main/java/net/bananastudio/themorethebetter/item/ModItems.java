@@ -2,6 +2,7 @@ package net.bananastudio.themorethebetter.item;
 
 import net.bananastudio.themorethebetter.TheMoreTheBetter;
 import net.bananastudio.themorethebetter.item.custom.ModAxeItem;
+import net.bananastudio.themorethebetter.item.custom.ModPickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -13,6 +14,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MOREITEMGROUP)));
     public static final Item RED_DIAMOND_AXE = registerItem("red_diamond_axe", new ModAxeItem(ModToolMaterials.RED_DIAMOND,
             2,1f,
+            new FabricItemSettings().group(ModItemGroup.MORETOOLSGROUP)));
+    public static final Item RED_DIAMOND_PICKAXE = registerItem("red_diamond_pickaxe", new ModPickaxeItem(ModToolMaterials.RED_DIAMOND
+    , 2, 1f,
             new FabricItemSettings().group(ModItemGroup.MORETOOLSGROUP)));
 
 

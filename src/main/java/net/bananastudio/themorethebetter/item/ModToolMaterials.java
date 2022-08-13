@@ -10,7 +10,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    RED_DIAMOND(MiningLevels.IRON, 2500, 9.0f, 5.0f, 24, () -> Ingredient.ofItems(ModItems.RED_DIAMOND));
+    RED_DIAMOND(MiningLevels.NETHERITE, 2500, 9.0f, 5.0f, 24, () -> Ingredient.ofItems(ModItems.RED_DIAMOND));
 
 
     private final int miningLevel;
