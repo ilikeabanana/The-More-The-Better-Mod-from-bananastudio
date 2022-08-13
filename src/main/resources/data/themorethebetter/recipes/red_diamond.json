@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "themorethebetter:red_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "themorethebetter:red_diamond",
+    "count": 1
+  }
+}

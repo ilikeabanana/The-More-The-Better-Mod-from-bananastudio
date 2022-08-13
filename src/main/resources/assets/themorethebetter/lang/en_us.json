@@ -3,5 +3,7 @@
   "itemGroup.themorethebetter.themoreore": "The More Ores",
   "block.themorethebetter.red_diamond_ore": "Red Diamond Ore",
   "itemGroup.themorethebetter.themoreitems": "The More Items",
-  "block.themorethebetter.red_diamond_block": "Red Diamond Block"
+  "block.themorethebetter.red_diamond_block": "Red Diamond Block",
+  "item.themorethebetter.red_diamond_axe": "Red Diamond Axe",
+  "itemGroup.themorethebetter.themoretools": "The More Tools"
 }
