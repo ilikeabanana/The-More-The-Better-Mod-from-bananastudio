@@ -14,4 +14,6 @@ public class ModItemGroup {
             new Identifier(TheMoreTheBetter.MOD_ID,"themoreitems"), () -> new ItemStack(ModItems.RED_DIAMOND));
     public static final ItemGroup MORETOOLSGROUP = FabricItemGroupBuilder.build(
             new Identifier(TheMoreTheBetter.MOD_ID,"themoretools"), () -> new ItemStack(ModItems.RED_DIAMOND_AXE));
+    public static final ItemGroup MOREBLOCKS = FabricItemGroupBuilder.build(
+            new Identifier(TheMoreTheBetter.MOD_ID,"themoreblocks"), () -> new ItemStack(ModBlocks.RED_DIAMOND_BLOCK));
 }

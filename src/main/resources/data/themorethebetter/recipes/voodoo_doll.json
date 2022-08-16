@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "SES",
+    "///"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "themorethebetter:voodoo_doll",
+    "count": 1
+  }
+}

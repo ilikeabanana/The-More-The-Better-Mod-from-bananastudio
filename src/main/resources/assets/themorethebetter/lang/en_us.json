@@ -6,5 +6,11 @@
   "block.themorethebetter.red_diamond_block": "Red Diamond Block",
   "item.themorethebetter.red_diamond_axe": "Red Diamond Axe",
   "item.themorethebetter.red_diamond_pickaxe": "Red Diamond Pickaxe",
-  "itemGroup.themorethebetter.themoretools": "The More Tools"
+  "itemGroup.themorethebetter.themoretools": "The More Tools",
+  "item.themorethebetter.red_diamond_hoe": "Red Diamond Hoe",
+  "item.themorethebetter.red_diamond_sword": "Red Diamond Sword",
+  "item.themorethebetter.voodoo_doll": "Voodoo Doll",
+
+  "itemGroup.themorethebetter.themoreblocks": "The More Blocks"
+
 }

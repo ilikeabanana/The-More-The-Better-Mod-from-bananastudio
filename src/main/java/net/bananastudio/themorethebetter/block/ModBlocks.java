@@ -17,8 +17,7 @@ public class ModBlocks {
     public static final Block RED_DIAMOND_ORE = registerBlock("red_diamond_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(5f)), ModItemGroup.MOREOREGROUP);
     public static final Block RED_DIAMOND_BLOCK = registerBlock("red_diamond_block",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(7f)), ModItemGroup.MOREOREGROUP);
-
+            new Block(FabricBlockSettings.of(Material.STONE).strength(7f)), ModItemGroup.MOREBLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab){
         registerBlockItem(name,block,tab);
